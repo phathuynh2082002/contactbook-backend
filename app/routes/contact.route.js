@@ -5,7 +5,7 @@ const router = express.Router();
 
 router
   .route("/")
-  .get(contacts.findALl)
+  .get(contacts.findAll)
   .post(contacts.create)
   .delete(contacts.deleteAll);
 
